@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:id="@+id/layout"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical"
+        >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:scaleType="centerCrop"
+            android:id="@+id/img"
+            android:src="@drawable/rrrrrr"
+            app:riv_corner_radius="@dimen/_5sdp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/micross"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:hint=" Title"
+            android:id="@+id/tv_title"
+            android:layout_alignParentBottom="true"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="@dimen/_14sdp" />
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

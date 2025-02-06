@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login"
+    >
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp">
+
+
+
+
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:cardCornerRadius="@dimen/_10sdp">
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/pickImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ss33"
+
+                    app:riv_corner_radius="@dimen/_10sdp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/etTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/micross"
+                android:hint="Title"
+                android:paddingStart="@dimen/_5sdp"
+                android:textAlignment="viewStart"
+                android:textStyle="bold"
+                android:paddingEnd="@dimen/_30sdp"
+                android:minWidth="150dp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#fff"
+                android:textSize="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/micross"
+                android:text="Event Details"
+                android:textStyle="bold"
+                android:paddingEnd="@dimen/_30sdp"
+                android:minWidth="150dp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+
+                android:paddingTop="@dimen/_10sdp"
+                android:textColor="#fff"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <ImageView
+                    android:id="@+id/location"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:visibility="visible"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/micross"
+                    android:padding="2dp"
+                    app:tint="#7C8288"
+                    android:src="@drawable/loc" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_toEndOf="@+id/location"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:text="Description"
+                    android:id="@+id/tv_location"
+
+
+                    android:textColor="#7C8288"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/venue"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:visibility="visible"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/micross"
+                    android:padding="2dp"
+                    app:tint="#7C8288"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_toEndOf="@+id/venue"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:text="Venue"
+                    android:id="@+id/tv_venue"
+
+                    android:textColor="#7C8288"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/location1"
+                    android:layout_width="20dp"
+                    android:layout_height="30dp"
+                    android:visibility="visible"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:fontFamily="@font/micross"
+                    android:padding="2dp"
+                    app:tint="#7C8288"
+                    android:src="@drawable/clock" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_toEndOf="@+id/location1"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:gravity="center_vertical"
+                    android:layout_centerVertical="true"
+                    android:text="17:00"
+                    android:id="@+id/date"
+
+                    android:textColor="#7C8288"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/micross"
+                android:text="Item Dimension"
+                android:textStyle="bold"
+                android:visibility="gone"
+
+                android:layout_marginHorizontal="@dimen/_5sdp"
+
+                android:paddingEnd="@dimen/_30sdp"
+                android:minWidth="150dp"
+                android:paddingTop="@dimen/_10sdp"
+                android:textColor="#000"
+                android:textSize="@dimen/_12sdp" />
+
+
+
+            <fragment
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/participate_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_50sdp"
+
+
+                    android:background="@drawable/btn_2"
+                    android:text="Participate"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/fav_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:paddingStart="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:textAllCaps="false"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_50sdp"
+
+
+                    android:background="@drawable/btn_2"
+                    android:text="Add to Favourite"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_connect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Connect with Participants"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:background="@drawable/btn_2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                android:layout_marginBottom="@dimen/_50sdp"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:id="@+id/bnve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "732978509057",
+    "firebase_url": "https://tunetogether-df6f8-default-rtdb.firebaseio.com",
+    "project_id": "tunetogether-df6f8",
+    "storage_bucket": "tunetogether-df6f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732978509057:android:044de0eb6c31f30fc35700",
+        "android_client_info": {
+          "package_name": "com.app.tunetogether.az"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732978509057-02e0qdv0huoi2ulo6rcethrsdgabivho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqmv1Ztjeo-_-VM8K__yz92jK_cEJOKL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732978509057-02e0qdv0huoi2ulo6rcethrsdgabivho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

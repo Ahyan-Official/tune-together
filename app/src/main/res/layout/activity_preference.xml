@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login"
+    tools:context=".PreferenceActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/ts"
+                android:layout_weight="1"
+
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/taylor"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_ty"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Taylor Swift"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/drake"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/drake"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_drake"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Drake"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/sam"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sam"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_sam"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Sam Smith"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/ed"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ed"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_ed"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Ed Sheeran"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/katy"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/katy"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_katy"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Katy Perry"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/louis"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/louis"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_louis"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Louis"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/weekend"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/weekend"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_weeknd"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Weekend"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/charlie"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/charlie"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_charlie"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Charlie Puth"
+                    android:singleLine="true"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_160sdp"
+                android:id="@+id/zedd"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_5sdp"
+                android:orientation="vertical"
+                >
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_160sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/zedd"
+                    app:riv_corner_radius="@dimen/_5sdp" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/ioio"
+                    android:id="@+id/tick_zedd"
+                    android:visibility="gone"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_alignParentTop="true"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/micross"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:hint=" Zedd"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="@dimen/_14sdp" />
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
